@@ -20,13 +20,25 @@ body {
 }
 
 .link {
-  color: inherit;
   text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--title-cl);
 }
 
 .link:hover,
 .link:focus {
   color: var(--accent-cl);
+}
+
+.link.current {
+  color: var(--accent-cl);
+}
+
+.contact-info-header {
+  color: var(--main-text-cl);
 }
 
 .logo {
@@ -67,6 +79,7 @@ body {
 }
 
 .btn {
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
